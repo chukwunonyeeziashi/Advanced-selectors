@@ -10,3 +10,33 @@ a{
     color: #8b949e;
     text-decoration: none;
 }
+a:hover{
+    color: #1f6feb;
+}
+ul > li{
+    font-weight: bold;
+}
+h1 + p{
+    background-color: #161b22;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover{
+    color: #4f8cc9;
+}
+ul li:nth-child(3){
+    background-color: #21262d;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+ul li::before{
+    content:"\1F680";
+}
+a::after{
+    content: "\1f30c";
+}
+p::first-letter{
+    font-size: 200%;
+    color: #ff7b72;
+}
